@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(46, 52, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 199, 162);
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+h2{
+    font-size:large;
+}
+
+article {
+    margin: 0 auto;
+    width: 90%;
+    text-align: left;
+}
+
+@media (min-width: 1024px) {
+    article {
+        margin-left: 26%;
+        margin-right: 26%;
+        font-size:large;
+        
+    }
+    iframe {
+        width: 660px;
+        height: 360px;
+    }
+}
+@media (max-width: 1023px) {
+    article {
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: left;
+    }
+    iframe {
+        width: 70vw;
+        height: 23vh;
+    } 
+}
